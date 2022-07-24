@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>K-Tyn Tang</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./static/css/main.css" />
+		<noscript><link rel="stylesheet" href="./static/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='rock.ico') }}">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right color3 invert">
+						<div class="content">
+							<h1>Hi I'm K-Tyn!</h1>
+							<br>
+							<p class="major">Aspiring developer, tree hugger, and professional generalist with a sore lack of employment.</a></p>
+							<ul class="icons">
+								<li><a href="mailto:ktyntang@hotmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="{{ url_for('static', filename='LinkedIn.html') }}" target="_blank" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="{{ url_for('static', filename='Instagram.html') }}" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<br>
+							</p>
+							<class="actions fit small">
+								<li><a href="{{ url_for('html_page', page_name='dance') }}" class="button fit small">click here for dancer site</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="./static/images/hardworker.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Work Experience</h2>
+							<p>A vision-driven start-up addict who just wants her 9-5 to mean something.
+							<br>I am particularly passionate about environmentally-conscious companies with tech that improves waste management/valorization or reduces supply chain inefficiencies.
+							<br>
+							<br>Also began learning Python in 2022 after seeing first-hand the improvement in productivity and quality that can be effected with just a bit of code :)
+							</p>
+							<ul class="actions">
+								<li><a href="{{ url_for('static', filename='github.html') }}" target="_blank" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+								<li><a href="{{ url_for('static', filename='Resume_updated22Apr2022.pdf') }}" target="_blank" class="button">Resume PDF</a></li>
+							</ul>
+							
+						</div>
+						<div class="image">
+							<img src="./static/images/edu.jfif" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in color3 invert">
+						<div class="content">
+							<h2>Certs and Skills</h2>
+
+							<p>ZeroToMastery Complete Python Developer in 2022
+							<br>NTU B.Sc. (Hons) Biological Sciences with 2nd Major in Food Science & Technology
+							</p>
+							<ul>
+								<li>Python 3, Microsoft Office, Excel VBA</li>
+								<li>Design Of Experiments, Principal Component Analysis, SPSS Statistics, PyMol</li>
+								<li>English, Mandarin (Basic)</li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="./static/images/work1.jfif" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Hobbies and Interests</h2>
+							<p>Scroll right and click for more reasons to love and hire me!</p>
+						</div>
+
+						<!-- Gallery -->
+							<div class="gallery style2 small lightbox onscroll-fade-in">
+								<article>
+									<a href="{{ url_for('html_page', page_name='dance') }}" class="image">
+										<img src="./static/images/dancer1.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Freelance Dance Teacher</h3>
+										<p>{{years - 17}} years of experience over a variety of genres - Jazz, Contemp, Hip Hop, Girls Style. 
+										<br>Certified CSTD Modern Jazz TC.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.youtube.com/watch?v=p3Cey4DMztg&t=4s" target="_blank" class="image">
+										<img src="./static/images/freedive1.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Amateur Mermaid</h3>
+										<p>Fish-lover. Freediver. Certified PADI Rescue Diver.</p>
+										<ul class="actions fixed">
+											<li></a><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.youtube.com/watch?v=fUcWueLmDwA&t=1s" target="_blank" class="image">
+										<img src="./static/images/ele2.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Wildlife Edutainer</h3>
+										<p>Filmed, wrote, edited and hosted a mini-series called Elefacts! Why yes, I did do all this work entirely of my own volition and admiration for David Attenborough </p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+										
+									</div>
+								</article>
+								<article>
+									<a href="https://www.youtube.com/watch?v=t-Ph_eFe9Fk&t=224s" class="image">
+										<img src="./static/images/elmo2.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Professional Mascot</h3>
+										<p>(Not a furry fetish I promise)</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>	
+								<article>
+									<a class="image">
+										<img src="./static/images/adrenaline2.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Avid Acrophiliac</h3>
+										<p>Mountains YES.
+										<br>Roller Coasters YES.
+										<br>Adventure YES.</p>
+									</div>
+								</article>
+								
+								<article>
+									<a class="image">
+										<img src="./static/images/bakes.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Domestic Goddess</h3>
+										<p>Cheesecake, Pandan chiffon, Chocolate, Matcha, Opera cake - if you can think it I can make it! 
+										<br>I've also made many a microbial friend in my days of kefir and kombucha fermentation :')
+										</p>
+									</div>
+								</article>
+							</div>
+							<div class="content">
+								<p>For more info on dance-related work please head <a href="{{ url_for('html_page', page_name='dance') }}" target="_blank">here</a></p>
+							</div>
+					</section>
+
+				<!-- Seven -->
+					<section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<h2><a id="form">Thank you very much!</a></h2>
+							<p>I will get in touch with you shortly. Have a lovely day :) </p>
+
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center color3 invert">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="mailto:ktyntang@hotmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="{{ url_for('static', filename='LinkedIn.html') }}" target="_blank" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="{{ url_for('static', filename='Instagram.html') }}" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="{{ url_for('static', filename='github.html') }}" target="_blank" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+							</ul>
+							<p>&copy; K-Tyn Tang. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="./static/js/jquery.min.js"></script>
+			<script src="./static/js/jquery.scrollex.min.js"></script>
+			<script src="./static/js/jquery.scrolly.min.js"></script>
+			<script src="./static/js/browser.min.js"></script>
+			<script src="./static/js/breakpoints.min.js"></script>
+			<script src="./static/js/util.js"></script>
+			<script src="./static/js/main.js"></script>
+
+	</body>
+</html>
